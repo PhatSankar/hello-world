@@ -16,7 +16,7 @@ pipeline {
         }
         stage('NPM start') { 
             steps {
-                sh 'npm start'
+                sh 'npm start &'
             }
         }
     }
